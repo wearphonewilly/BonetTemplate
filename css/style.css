@@ -67,10 +67,6 @@ a:active {
     color: yellow;
 }
 
-.content {
-    padding: 16px;
-}
-
 .sticky {
     position: fixed;
     top: 0;
@@ -80,3 +76,25 @@ a:active {
 .sticky+.content {
     padding-top: 60px;
 }
+
+.content {
+    background-color: #5757F8;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+/*section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #5757F8;
+    height: 100vh;
+    color: white;
+  }
+  section:nth-of-type(2n) {
+    background-color: #b36073;
+  }
+  */
